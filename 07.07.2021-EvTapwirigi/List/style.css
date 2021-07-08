@@ -1,7 +1,7 @@
 body{
     padding-left: 50px;
 }
-ul{
+/* ul{
     background-color: black;
     color: cornsilk;
     display: flex;
@@ -16,4 +16,13 @@ ul{
 ul li{
     
   margin-left: 5px;
+} */
+
+ul{
+  columns: 3;
+  width: 400px;
+  height: 100px;
+  list-style: none;
+  background-color: black;
+  color: white;
 }
